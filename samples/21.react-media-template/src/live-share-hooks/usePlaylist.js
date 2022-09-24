@@ -27,23 +27,27 @@ export const usePlaylist = (playlistMap, sendNotification) => {
   }, [selectedId, mediaItems]);
 
   const addMediaItem = useCallback(
-    (id) => {
-      if (!mediaItems.find((item) => item.id === id)) {
-        const itemToAdd = searchList.find((item) => item.id === id);
-        if (itemToAdd) {
-          playlistMap.set(id, itemToAdd);
-          if (!!sendNotification) {
-            sendNotification("added a video to the playlist");
-          }
-        }
-      }
+    (item) => {
+      console.log(item.songId);
+      console.log(item);
+      playlistMap.set(item.songId, item);
+      // if (!mediaItems.find((item) => item.id === id)) {
+      //   playlistMap.set(id, itemToAdd);
+      //   const itemToAdd = searchList.find((item) => item.id === id);
+      //   if (itemToAdd) {
+          
+      //     if (!!sendNotification) {
+      //       sendNotification("added a video to the playlist");
+      //     }
+      //   }
+      // }
     },
     [mediaItems, playlistMap, sendNotification]
   );
 
   const removeMediaItem = useCallback(
-    (id) => {
-      playlistMap.delete(id);
+    (item) => {
+      playlistMap.delete(item.songid);
     },
     [playlistMap]
   );

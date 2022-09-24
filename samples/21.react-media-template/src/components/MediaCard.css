@@ -1,0 +1,64 @@
+.search-card{
+    height: 48px;
+    width: 100%;
+    display: flex;
+    margin: 10px;
+}
+
+.image{
+    height: 48px;
+    width: 48px;
+}
+
+.contents{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.song{
+    width: 156px; 
+    height: 24px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    align-items: center;
+}
+
+.artist{
+    width: 156px;
+    height: 24px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    align-items: center;
+
+    /* Grayscale/Gray 70 */
+
+    color: #B3B3B3;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}

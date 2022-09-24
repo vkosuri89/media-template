@@ -2,14 +2,14 @@
     "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.12/MicrosoftTeams.schema.json",
     "version": "1.0.1",
     "manifestVersion": "1.12",
-    "id": "<<YOUR-MICROSOFT-APP-ID>>",
+    "id": "435d3002-3499-4eff-adb6-275d062ffff8",
     "packageName": "com.microsoft.teams.livesharereactmediatemplate",
     "name": {
         "short": "Contoso Media",
         "full": "Contoso Media"
     },
     "developer": {
-        "name": "Your name here",
+        "name": "Hackathon",
         "mpnId": "",
         "websiteUrl": "https://www.example.com",
         "privacyUrl": "https://www.example.com/PrivacyStatement",
@@ -26,7 +26,7 @@
     "accentColor": "#38a2ff",
     "configurableTabs": [
         {
-            "configurationUrl": "https://<<BASE_URI_DOMAIN>>/config?inTeams=true",
+            "configurationUrl": "https://834a-2404-f801-8028-3-2879-6139-c7a1-f7a7.in.ngrok.io/config?inTeams=true",
             "canUpdateConfiguration": false,
             "scopes": [
                 "groupchat"

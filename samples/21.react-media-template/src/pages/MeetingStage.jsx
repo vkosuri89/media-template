@@ -14,6 +14,7 @@ import {
 import { AzureMediaPlayer } from "../utils/AzureMediaPlayer";
 import { ACCEPT_PLAYBACK_CHANGES_FROM } from "../constants/allowed-roles";
 import { useTeamsContext } from "../teams-js-hooks/useTeamsContext";
+import SpotifyPlayer from 'react-spotify-web-playback';
 
 const MeetingStage = () => {
   // Teams context
@@ -128,37 +129,20 @@ const MeetingStage = () => {
     inkStarted,
   ]);
 
+  var authToken = "BQCj71Gq45DSx3vbOuTE2j-XAwI5afXAhtXmxSJ8LWm42B9-NryWdP6w4NGBWxPCEafWSkuY-U9cXbTXZ5jAWazXpXqXILZ0nY63t4fBbqu73T53G33K3vVI4_hw0r_DxcnPijqIa9tKAqqQ1jrNW6ZcT2V3cMe7J-rsMitt-aFLJYzZs2r5OrOsDkZHzk7f49EvISuSqWjHIaRzYu2hk8UrQlZHpd0wQQtmMUHnQnhYhrngHQ"
+  var trackID = "47v4uUtj5AukJmCbMq4Kry"
+
+  console.log("hello")
+  console.log(selectedMediaItem);
+  console.log(playlistMap.get("selected-media-id"))
+
   // Render the media player
   return (
     <div style={{ backgroundColor: "black" }}>
-      {/* Display error if container failed to load */}
-      {error && <PageError error={error} />}
-      {/* Live Share wrapper to show loading indicator before setup */}
-      <LiveSharePage context={context} container={container} started={started}>
-        {/* Display Notifications */}
-        <LiveNotifications notificationToDisplay={notificationToDisplay} />
-        {/* Media Player */}
-        <MediaPlayerContainer
-          player={player}
-          localUserIsPresenting={localUserIsPresenting}
-          localUserIsEligiblePresenter={localUserIsEligiblePresenter}
-          suspended={suspended}
-          strokes={strokesToDisplay}
-          play={play}
-          pause={pause}
-          seekTo={seekTo}
-          takeControl={takeControl}
-          endSuspension={endSuspension}
-          nextTrack={nextTrack}
-          sendStrokes={sendStrokes}
-        >
-          {/* // Render video */}
-          <video
-            id="video"
-            className="azuremediaplayer amp-default-skin amp-big-play-centered"
-          />
-        </MediaPlayerContainer>
-      </LiveSharePage>
+      <SpotifyPlayer
+        token={authToken}
+        uri={[`spotify:track:${trackID}`]}
+      />
     </div>
   );
 };

@@ -65,10 +65,12 @@ const SidePanel = () => {
 
   const selectMedia = useCallback(
     (mediaItem) => {
+      console.log(mediaItem);
       // Take control
       takeControl();
       // Set the selected media ID in the playlist map
-      selectMediaId(mediaItem.id);
+      selectMediaId(mediaItem.songId);
+      console.log(selectedMediaItem);
       if (inTeams()) {
         // If not already sharing to stage, share to stage
         if (!sharingActive) {
@@ -106,6 +108,11 @@ const SidePanel = () => {
     playlistStarted,
   ]);
 
+  const hash = window.location.hash.replace("#", "");
+  const urlSearchParams = new URLSearchParams(hash);
+  const params = Object.fromEntries(urlSearchParams.entries());
+  console.log(params)
+
   return (
     <LiveSharePage context={context} container={container} started={started}>
       <ListWrapper>
@@ -117,6 +124,7 @@ const SidePanel = () => {
           addMediaItem={addMediaItem}
           removeMediaItem={removeMediaItem}
           selectMedia={selectMedia}
+          params = {params}
         />
       </ListWrapper>
     </LiveSharePage>

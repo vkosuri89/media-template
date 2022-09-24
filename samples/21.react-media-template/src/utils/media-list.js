@@ -9,69 +9,74 @@ export const mediaList = [
     thumbnailImage:
       "https://by3302files.storage.live.com/y4mohyKkLvuC6HfaeJbCtX1gnRdCHlLpJe1n6L4OLkd4z9ljbC_w-vcL0RJjs0k5IJvVY3AcJ1O0wmfG_Bwzs7CUCwqTTwuPNej7MiIbXqQDySexIq_qRUVK7v68bA4glUS6UBn-lmZBfiWI51h63-tZvhwtso6_55F1xjvo6z02v-K5yp56mTi0LsWPLblOPxL?width=660&height=371&cropmode=none",
     title: "Teams Channel Trailer",
-    src: "https://livesharemedia-usw22.streaming.media.azure.net/d636cbe2-5e4a-419b-958e-6cc81dd3ca72/15 - Channel Trailer V8.ism/manifest(format=mpd-time-cmaf,encryption=cbc)",
-    type: "video",
+    src: "https://filesamples.com/samples/video/mp4/sample_1280x720_surfing_with_audio.mp4",
+    type: "audio",
   },
 ];
 
+
+
 export const searchList = [
-  ...mediaList,
   {
-    id: "1",
-    thumbnailImage:
-      "https://by3302files.storage.live.com/y4mJHPKYRDVa0Tq0tEL0MLkNp8Od4hPhcYudyjGdnU7DgErpEgEAflpu3f4QLCa5BjIwE11D2R3iKGauB3I0pbJDKSKrc6hMCB46pMB7fdsmbiAao0C5RmXOfzEZKcX6dFwQiIod2G0zeyfRL2akN9A8jw0Pf-sGWnKkXE-nMWv8-42_jM88n-F3PooGSSKaAyH?width=660&height=372&cropmode=none",
-    title: "Onboarding to Teams Apps",
-    src: "https://livesharemedia-usw22.streaming.media.azure.net/8bf16f5f-d4b0-437b-8121-d780abe744c9/Onboarding_Video11_Final_H264.ism/manifest(format=mpd-time-cmaf,encryption=cbc)",
-    type: "video",
-  },
-  // {
-  //   id: "2",
-  //   thumbnailImage:
-  //     "https://by3302files.storage.live.com/y4mHWAobY6Eko5RrNOulkHfCymSqTxMZSIoivl3uOeNnteXJU2Gq_WY7TKfubdN0kJr04SThB11E_O4x0_sr-ic0v4yY3KE91R-Vv5gSYre76_xwKT7pc1KBl23yIgf3qgKaU2RFRWLF8WpEjoidwxxpSaqsSjhYXHFM26xqHGwUyxO8jobogFVw8RZ4GcIPYTl?width=660&height=374&cropmode=none",
-  //   title: "Beach 4K",
-  //   src: "https://livesharemedia-usw22.streaming.media.azure.net/39bd117d-0f75-40d2-8abe-fb7d49cf1157/pexels-ivan-khmelyuk-7222009.ism/manifest(format=mpd-time-cmaf,encryption=cbc)",
-  //   type: "video",
-  // },
-  {
-    id: "3",
-    thumbnailImage:
-      "https://by3302files.storage.live.com/y4mUBBvkvbh4U8GCw-auQJ4c0e9AoU9jk7OmqL1HoI5uv0ah2IVSngvGqhg4l-1P2w2rA1CqunF16uhBvYU_FXRpQq_UtsDg6cXovkskMxi-3tO-_r41HJg6Y2a_u0qkUl1amExyG7yl3Q8fmAvMRrXEg5D1ouyYX82YP9BqQDRFJlgVx9tCFk-jfLGVO1nMIru?width=660&height=369&cropmode=none",
-    title: "3 app tips in Teams",
-    src: "https://livesharemedia-usw22.streaming.media.azure.net/113f04f1-5e06-45f5-be52-b848aa3f7afe/71372_teams_tip_three_apps_chat_.ism/manifest(format=mpd-time-cmaf,encryption=cbc)",
-    type: "video",
+      "id": 0,
+      "songId": "2Fxmhks0bxGSBdJ92vM42m",
+      "thumbnailImage": "https://i.scdn.co/image/ab67616d0000b27350a3147b4edd7701a876c6ce",
+      "title": "bad guy"
   },
   {
-    id: "4",
-    thumbnailImage:
-      "https://by3302files.storage.live.com/y4mvA_fpovY-RkRbEAK3JFfyFJIJaikw2iFDNYeAPncjPRJ7jRfiJyVFiSk9Sq5qNXS7NpzBgBP9NHFr_I2KMs8qUgxkGTPebP86JQOHuezGclUtVPsmtzfA-7yYWJxFsRowzB6v6okwDQdC9il2Xq6183WBGgKWCwiCTX0HZ9ELVQFdUwfgxTK5BwEb79r_mPh?width=660&height=370&cropmode=none",
-    title: "Reply to a message demo",
-    src: "https://livesharemedia-usw22.streaming.media.azure.net/8961cf76-8e34-440f-b52d-e50601d8cf61/Reply_To_A_Message_Aisha_MASTER.ism/manifest(format=mpd-time-cmaf,encryption=cbc)",
-    type: "video",
+      "id": 1,
+      "songId": "0xzI1KAr0Yd9tv8jlIk3sn",
+      "thumbnailImage": "https://i.scdn.co/image/ab67616d0000b2738c47a33a55c6d23cc9d2cf3f",
+      "title": "Bad Decisions (with BTS & Snoop Dogg)"
   },
   {
-    id: "5",
-    thumbnailImage:
-      "https://by3302files.storage.live.com/y4mL6V3p0Sqx7xCXX96BYtVxG-GSNNQ573Cc_SP769NWcpdjhhfOG9ZjzlndGQBqeoEkVARmtoW0rwyRe3Up7ldUin3YUhte0MSh5aYpxi68IDDJ19drmIDC6VF_h3w_2tPANAl27g15f4w42aANYhPM4VyeREVKp3ItAUNoULO6NXbQPooDXpfQMN4fYuNdqL6?width=660&height=374&cropmode=none",
-    title: "Standout presenter demo",
-    src: "https://livesharemedia-usw22.streaming.media.azure.net/a0e332ba-4b9c-4172-a7e4-f74e32eff698/Standout_Presenter_Aisha_MASTER.ism/manifest(format=mpd-time-cmaf,encryption=cbc)",
-    type: "video",
+      "id": 2,
+      "songId": "64p6ua7zpf66s62StC2QLv",
+      "thumbnailImage": "https://i.scdn.co/image/ab67616d0000b2739b93b7071e8f0d9e14aa5d1c",
+      "title": "Bad Boy (feat. Luana Kiara)"
   },
   {
-    id: "6",
-    thumbnailImage:
-      "https://by3302files.storage.live.com/y4m9tgZXn-22LyDf-IU2Wg_GMJE-JPMHbmO2fXO2DzI9ZGKYKguArpqcLTgmIOaIeaMDKoEDOOvYnIkHsys_Q7WvM8hHOGGJVwvHs1ksd12jiG8ZecJvevz_K7wE2VqqqG5Z3bZnDpuWvlolYmgzd_StHgYZodbmtHbNFrf5AUekdx8uNfDIptlP7Rqnt-mpO7P?width=1443&height=811&cropmode=none",
-    title: "Hang Gliding",
-    src: "https://livesharemedia-usw22.streaming.media.azure.net/2b941807-5fd5-45b6-bdc5-362c3c20ae8f/pexels-cédric-estienne-6749146.ism/manifest(format=mpd-time-cmaf,encryption=cbc)",
-    type: "video",
+      "id": 3,
+      "songId": "2TzyJEUfWHGRsk3r6Emvbk",
+      "thumbnailImage": "https://i.scdn.co/image/ab67616d0000b273375bf11209444fdd2099be86",
+      "title": "Daru Badnaam"
   },
   {
-    id: "7",
-    thumbnailImage:
-      "https://by3302files.storage.live.com/y4mzi99em6H2SBgawxkOet8pPzlPhQC2L4RWj8-qK3wZBhL_Ybol_8p04L_in28Phl7_D9hOMjl97aEjD93ZB7X18COjmHysfs0bK93goF_FMDBBEJUXAHbmkgvUHFj45VWtEN3n6BSoXZlvZWQXYoDRoGtuBLVMK7wbFUoYxE6ZJR0i8xvycB7bEQ2eJ2iSuVR?width=256&height=136&cropmode=none",
-    title: "Dog Days",
-    src: "https://livesharemedia-usw22.streaming.media.azure.net/a5a174b6-3ca1-4b33-96fb-ce20b4b3eda1/pexels-zen-chung-5740700.ism/manifest(format=mpd-time-cmaf,encryption=cbc)",
-    type: "video",
+      "id": 4,
+      "songId": "2RSHsoi04658QL5xgQVov3",
+      "thumbnailImage": "https://i.scdn.co/image/ab67616d0000b273da6f73a25f4c79d0e6b4a8bd",
+      "title": "Bad Liar"
   },
+  {
+      "id": 5,
+      "songId": "2NTVtNcpC0i1R7LVGaCZCF",
+      "thumbnailImage": "https://i.scdn.co/image/ab67616d0000b273efe374ffabeb543840dee228",
+      "title": "Jugnu"
+  },
+  {
+      "id": 6,
+      "songId": "4p1yzpajuKXwZKBQ7PyH9x",
+      "thumbnailImage": "https://i.scdn.co/image/ab67616d0000b273efe1737aeb91b2167738c095",
+      "title": "Bad"
+  },
+  {
+      "id": 7,
+      "songId": "2VrSkfinwUSNc7uAXiL0FA",
+      "thumbnailImage": "https://i.scdn.co/image/ab67616d0000b2731226810d40e37677f6f58384",
+      "title": "Let Me Down Slowly / Mai Dhoondhne Ko Zamaney / Kabhi Jo Badal Barsey (Medley)"
+  },
+  {
+      "id": 8,
+      "songId": "5WzfGg2ueNoOS5aIkaR9qX",
+      "thumbnailImage": "https://i.scdn.co/image/ab67616d0000b273dc53a10529383dc097601a49",
+      "title": "Atak Gaya - Arijit Singh"
+  },
+  {
+      "id": 9,
+      "songId": "0g0fOWwiRrcTnAPFHkvP4e",
+      "thumbnailImage": "https://i.scdn.co/image/ab67616d0000b273b1f6c959559c992620608196",
+      "title": "Bad Habits"
+  }
 ];
 
 function getInitialMediaId() {
